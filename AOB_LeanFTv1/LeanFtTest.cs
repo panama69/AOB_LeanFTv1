@@ -16,6 +16,8 @@ namespace AOB_LeanFTv1
         private IBrowser browser;
         private AOBModel appModel;
         private BrowserType browserType;
+        //switch baseURI for if you have internet connection or if 
+        //you are accessing local alm-aob image
         private string baseUri = "http://15.126.221.115:47001/advantage/";
         //private string baseUri = "http://alm-aob:47001/advantage/";
 
