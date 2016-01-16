@@ -301,6 +301,7 @@ namespace AOB_LeanFTv1
         // Other   - //TABLE[@id="dlProducts"]/TBODY[1]/TR[2]/TD[2]/DIV[1]/DIV[3]/DIV[1]/INPUT[1]
         //NOTE: with LeanFT, if the product shows up in a differnt order LeanFT will still
         //      find the correct product.  You can not easily guarantee that with using Xpath
+        //      ALSO there are ways to walk through this in Selenium without needing to know Xpath
         String[] loopStr = new String [] {"Flowers - Rose Quantity must range from 1 to 10 ",
                                       "Other - Buildings Quantity must range from 1 to 10 ",
                                       "Sports - Yacht Quantity must range from 1 to 10 "};
