@@ -330,8 +330,6 @@ namespace AOB_LeanFTv1
                         }).Click();
             #endregion
 
-            //Add the sleep if you want to see it being checked
-            //Thread.Sleep(2000);
         }
 
         [TestFixtureTearDown]
