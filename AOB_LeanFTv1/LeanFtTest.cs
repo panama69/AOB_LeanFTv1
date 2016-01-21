@@ -13,6 +13,7 @@ namespace AOB_LeanFTv1
     [TestFixture]
     public class LeanFtTest : UnitTestClassBase
     {
+        //set values for whole test
         private IBrowser browser;
         private AOBModel appModel;
         private BrowserType browserType;
