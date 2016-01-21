@@ -13,6 +13,7 @@ namespace AOB_LeanFTv1
     [TestFixture]
     public class LeanFtTest : UnitTestClassBase
     {
+        //line added from gitProjects folder
         //line added
         //set values for whole test
         private IBrowser browser;
